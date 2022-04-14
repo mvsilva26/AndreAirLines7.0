@@ -1,0 +1,11 @@
+﻿namespace ProjMongoDBAeronave.Utils
+{
+    public class ProjMongoDotnetDatabaseSettings : IProjMongoDotnetDatabaseSettings
+    {
+        public string AeronaveCollectionName { get; set; }
+        public string ConnectionString { get; set; }
+        public string DatabaseName { get; set; }
+
+
+    }
+}
